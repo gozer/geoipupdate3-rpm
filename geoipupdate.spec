@@ -59,6 +59,6 @@ install -D -m 755 %{SOURCE1} %{buildroot}%{_sysconfdir}/cron.weekly/geoipupdate3
 %{_mandir}/man1/geoipupdate3.1*
 
 %files cron
-%config(noreplace) %{_sysconfdir}/cron.weekly/geoipupdate
+%config(noreplace) %{_sysconfdir}/cron.weekly/geoipupdate3
 
 %changelog

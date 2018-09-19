@@ -6,7 +6,7 @@ Release:	1%{?dist}
 Summary:	Update GeoIP2 and GeoIP Legacy binary databases from MaxMind
 License:	GPLv2
 URL:		http://dev.maxmind.com/geoip/geoipupdate/
-Source0:	http://github.com/maxmind/geoipupdate/releases/download/v%{version}/geoipupdate-%{version}.tar.gz
+Source0:	https://github.com/maxmind/geoipupdate/releases/download/v%{version}/geoipupdate-%{version}.tar.gz
 Source1:	geoipupdate3.cron
 BuildRequires:	coreutils
 BuildRequires:	gcc
